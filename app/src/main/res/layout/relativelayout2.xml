@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="#1 - Top Izquierda"
+        />
+
+    <Button
+        android:id="@+id/boton2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="#2 - Centro Top"/>
+
+    <Button
+        android:id="@+id/boton3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:text="#3 - Izquierda 100dp Top" />
+
+    <Button
+        android:id="@+id/boton4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:text="#4 - Derecha 100dp Top"/>
+
+    <Button
+        android:id="@+id/boton5"
+        android:layout_width="97dp"
+        android:layout_height="193dp"
+        android:layout_alignBottom="@id/boton7"
+        android:layout_centerVertical="true"
+        android:text="#5 - Centro Izquierda" />
+
+    <Button
+        android:id="@+id/boton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/boton7"
+        android:layout_alignLeft="@+id/boton7"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="2dp"
+        android:text="#6 [Sobre->#7], [Align-Izq->#7" />
+
+    <Button
+        android:id="@+id/boton7"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="#7 - Centro de todo"/>
+
+    <Button
+        android:id="@+id/boton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton7"
+        android:layout_alignRight="@+id/boton7"
+        android:text="#8 [Bajo->#7], [AlignDer->#7"/>
+
+    <Button
+        android:id="@+id/boton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/boton10"
+        android:layout_toLeftOf="@+id/boton10"
+        android:text="#9 [Izg->#10], [AlignTop->#10"/>
+    <Button
+        android:id="@+id/boton10"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="#10 - Botton Centro"/>
+
+    <Button
+        android:id="@+id/boton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/boton10"
+        android:layout_toRightOf="@+id/boton10"
+        android:text="#11 [Der->#10], [AlignTop->#10"/>
+
+</RelativeLayout>
